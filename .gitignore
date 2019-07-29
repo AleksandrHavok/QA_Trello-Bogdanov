@@ -11,7 +11,7 @@ gradle-app.setting
 .gradletasknamecache
 
 # Idea
-.idea
+.idea/workspace.xml
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
