@@ -30,9 +30,10 @@ public class CreateBoardTest extends TestBase {
     }
 
     private void selectCreateBoardFromDropDown() {
+        click(By.xpath("data-test-id=\"header-create-board-button\""));
     }
 
     private void clickOnPlusButtonOnHeader() {
-        click(By.cssSelector(""));
+        click(By.cssSelector("[name=add]"));
     }
 }
